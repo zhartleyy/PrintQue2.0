@@ -1,0 +1,38 @@
+# --- General Python Artifacts ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+
+# --- Build and Distribution Artifacts (cx_Freeze / PyInstaller) ---
+# Ignores files created by your packaging scripts (setup.py)
+build/
+dist/
+*.spec
+# Temporary directory used in some setups
+temp/
+
+# --- IDE and OS Files ---
+.idea/
+.vscode/
+.DS_Store
+*~
+
+# --- Local User Data & Configuration (CRITICAL) ---
+# Prevents user-specific and sensitive data from being tracked
+.env                 # Environment variables (may contain SMTP/API keys)
+.license_cache       # Local license cache (was proprietary)
+*.key                # Any local key files (e.g., license.key)
+
+# The user-writable directory created by app.py/license_validator.py
+# This contains user settings, logs, and print data.
+PrintQueData/
+logs/
+uploads/
+
+# State files (always regenerate locally)
+orders.json
+total_filament.json
