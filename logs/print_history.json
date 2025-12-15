@@ -1,0 +1,3 @@
+{"id": 1, "filename": "multi_material_test_1.gcode.3mf", "quantity": 2, "groups": ["Default"], "filament_g": 0, "ejection_enabled": false, "source": "unknown", "created_at": null, "completed_at": "2025-09-05T22:26:40.811128", "duration_seconds": null}
+{"id": 2, "filename": "multi_material_test_1.gcode.3mf", "quantity": 1, "groups": ["Default"], "filament_g": 0, "ejection_enabled": false, "source": "unknown", "created_at": null, "completed_at": "2025-09-05T22:26:40.812129", "duration_seconds": null}
+{"id": 8, "filename": "small_12.gcode.3mf", "quantity": 1, "groups": ["Default"], "filament_g": 0, "ejection_enabled": false, "source": "unknown", "created_at": null, "completed_at": "2025-09-05T23:20:34.562295", "duration_seconds": null}
